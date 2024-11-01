@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo7 - Algorithmic Trading Bot</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.js"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #2563eb, #1d4ed8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hover-scale {
+            transition: transform 0.2s;
+        }
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <!-- Hero Section -->
+    <header class="container mx-auto px-4 py-16 text-center">
+        <div class="flex items-center justify-center mb-6">
+            <div class="relative">
+                <i data-lucide="network" class="h-12 w-12 text-blue-600"></i>
+                <i data-lucide="cpu" class="h-6 w-6 text-blue-400 absolute bottom-0 right-0"></i>
+            </div>
+        </div>
+        <h1 class="text-5xl font-bold mb-6 gradient-text">
+            Algo7
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Next-Generation Algorithmic Trading for MetaTrader 5
+        </p>
+        <a href="https://wa.me/972549669657" target="_blank" 
+           class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-lg text-lg font-semibold hover-scale">
+            Get Started Now 
+            <i data-lucide="arrow-right" class="inline ml-2 h-5 w-5"></i>
+        </a>
+    </header>
+
+    <!-- Features Grid -->
+    <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Why Choose Algo7?</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="zap" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">Lightning Fast Execution</h3>
+                <p class="text-gray-600 text-center mt-2">Execute trades in milliseconds, never miss a market opportunity</p>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="bar-chart-2" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">Advanced Analytics</h3>
+                <p class="text-gray-600 text-center mt-2">Real-time market analysis and intelligent trade decisions</p>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="shield" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">Risk Management</h3>
+                <p class="text-gray-600 text-center mt-2">Built-in protection features to safeguard your investments</p>
+            </div>
+
+            <!-- Feature Card 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="clock" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">24/7 Operation</h3>
+                <p class="text-gray-600 text-center mt-2">Continuous market monitoring and trading, even while you sleep</p>
+            </div>
+
+            <!-- Feature Card 5 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="network" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">Easy Integration</h3>
+                <p class="text-gray-600 text-center mt-2">Seamless setup with your MetaTrader 5 platform</p>
+            </div>
+
+            <!-- Feature Card 6 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                <div class="flex items-center justify-center">
+                    <i data-lucide="cpu" class="h-8 w-8 text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-center mt-4">Custom Strategies</h3>
+                <p class="text-gray-600 text-center mt-2">Customize trading parameters to match your style</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Start Automated Trading?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Join thousands of traders who have already automated their trading strategy
+            </p>
+            <a href="https://wa.me/972549669657" target="_blank" 
+               class="inline-block bg-white hover:bg-gray-100 px-8 py-6 rounded-lg text-lg font-semibold hover-scale">
+                <span class="text-blue-600">I'd like to try it</span>
+                <i data-lucide="arrow-right" class="inline ml-2 h-5 w-5 text-blue-600"></i>
+            </a>
+        </div>
+    </section>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
